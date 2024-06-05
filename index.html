@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodger</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js"></script>
+    
+</head>
+<body>
+    <div id="loginContainer">
+        <h1>Login</h1>
+        <button id="google-login" class="google-login">Login with Google</button>
+    </div>
+    <div id="gameContainer" style="display: none;">
+        <div id="player"></div>
+    </div>
+    <p id="score" style="display: none;">Score: 0</p>
+    <p id="highScore" style="display: none;">High Score: 0</p>
+    <script src="scripts.js" type="module"></script>
+</body>
+</html>
+
+
